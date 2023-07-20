@@ -1,0 +1,29 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(92, 92, 92);
+  }
+  
+  input[type="text"] {
+    display: block;
+    width: 275px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  
